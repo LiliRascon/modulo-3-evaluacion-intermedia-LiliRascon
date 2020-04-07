@@ -1,0 +1,51 @@
+body{
+  background: #cacaca;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  max-width: 300px;
+  margin: auto;
+
+}
+
+.pokeList__poke{
+  
+  background:white;
+  border: 1px solid;
+  color: grey;
+  border-radius: 5%;
+  padding: 15px;
+  display: flex;
+  min-height: 135px;
+  margin-top: 20px
+}
+
+.pokeList__poke-info{
+  width: 100px
+}
+
+h1{
+  margin-top:0;
+color: gray;
+text-align: center;
+  
+}
+h5{
+  font-family: fantasy;
+  color: gray;
+}
+
+
+
+.types {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+}
+
+h2{
+  font-size: 12px;
+  color: gray;
+
+}
